@@ -31,7 +31,7 @@ img{
   /*padding-left: 2%;*/
   text-align: center;
   background: rgb(226,226,226);
-background: linear-gradient(0deg, rgba(226,226,226,1) 0%, rgba(248,249,250,1) 7%, rgba(200,42,42,1) 42%, rgba(88,0,14,1) 86%);
+  background: linear-gradient(0deg, rgba(226,226,226,1) 0%, rgba(248,249,250,1) 7%, rgba(200,42,42,1) 42%, rgba(88,0,14,1) 86%);
 }.f-div img{
   width: 160px;
   opacity: 0;
@@ -125,7 +125,7 @@ hr {
   margin-top: 10px;
   filter: blur(5px);
   position: relative;
-  border-bottom: 80px solid black;
+  border-bottom: 80px solid #343a40;
   box-shadow: 3px 1px 25px red;
 }
 @media(max-width: 500px){
@@ -485,13 +485,13 @@ main > h2{
   padding-top: 50px;
   padding-bottom: 50px;
   background-color:#f8f9fa;
-  border-bottom: 80px solid black;
+  border-bottom: 80px solid #343a40;
 }
 
 
 .section-0{
    padding-bottom: 20px;
-   border-bottom: 80px solid black;
+   border-bottom: 80px solid #343a40;
    background-color:#f8f9fa ;
 }#cont{
    margin-top: 80px;
@@ -671,7 +671,7 @@ main > h2{
     }
 }
 .section-2{
-   border-bottom: 50px solid black;
+   border-bottom: 50px solid #343a40;
    padding-bottom: 140px;
 }
  #cont1 h1{
@@ -684,7 +684,7 @@ main > h2{
 
 .mbsection{
      display: none;
-     border-bottom: 50px solid black;
+     border-bottom: 50px solid #343a40;
 }
 @media(max-width: 1000px){
       .galleryd{
@@ -718,7 +718,7 @@ main > h2{
 
 .moviesection{
       padding-bottom: 300px;
-      border-bottom: 50px solid black;
+      border-bottom: 50px solid #343a40;
   }
 
 
@@ -727,18 +727,49 @@ main > h2{
      margin-top: 100px;
      color: #f8f9fa;
      font-family: "Bebas Neue", sans-serif;
-     overflow-y: hidden;
 } 
 .vdiv h5{
      text-align: center;
      color: #f8f9fa;
      font-family: "Bebas Neue", sans-serif;
      opacity: 0.9;
-     overflow-y: hidden;
 }
 .viddiv{
     margin-top: 50px;
 }
 .vid{
      pointer-events: auto;
+}
+
+.sectiondiv h1{
+     overflow-y: hidden;
+}
+
+#faqbtn{
+     width: 1000px;
+     display: flex;
+     padding-left: 30px;
+     background-color: #f8f9fa;
+     color:#343a40;
+     border-radius: 3px;
+     border: 1px solid #6c757d;
+     box-shadow: 1px 1px 5px black;
+}
+@media(max-width: 330px){
+     #faqbtn{
+         padding-left: 0px;
+     }
+}
+.section-4{
+     background: #f8f9fa;
+     padding-bottom: 50px;
+     border-bottom: 50px solid #343a40;
+}.faqdiv h2{
+     color: #343a40;
+     margin-top: 50px;
+     font-family: "Bebas Neue", sans-serif;
+     text-align: center;
+}
+.card{
+     background-color: #f8f9fa;
 }
