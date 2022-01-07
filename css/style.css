@@ -773,3 +773,82 @@ main > h2{
 .card{
      background-color: #f8f9fa;
 }
+/*----------*/
+.facts-numbers {
+  width: 100%;
+  text-align: center;
+  background-image: url("../img/banner2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 50px solid #343a40;
+   }
+  .facts-numbers .black-layer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 10%; }
+    .facts-numbers .black-layer h1 {
+      font-size: 20px;
+      font-family: 'Bebas Neue', cursive;
+      color: #EEEEEE;
+      padding: 10% 0 5% 0; }
+    .facts-numbers .black-layer .article-container {
+        overflow-y: hidden;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 60%;
+      background-color: #343a40;
+      margin: 0 20%;
+      padding-bottom: 3%;
+      position: relative;
+      opacity: 0.9;
+        }
+      .facts-numbers .black-layer .article-container .facts-container {
+        width: 40%;
+        overflow-y: hidden;
+        margin: 5%; }
+        @media (max-width: 600px) {
+          .facts-numbers .black-layer .article-container .facts-container {
+            width: 80%;
+            margin: 5% auto; } }
+        .facts-numbers .black-layer .article-container .facts-container h2 {
+          color: #EEEEEE;
+          font-family: 'Bebas Neue', cursive;
+          font-size: 27px;
+          overflow-y: hidden;
+           }
+        .facts-numbers .black-layer .article-container .facts-container .break-line {
+          width: 20%;
+          height: 6%;
+          background-color: #4D4C4B;
+          margin: 5% 0;
+          position: relative;
+          left: 50%;
+          overflow-y: hidden;
+          transform: translateX(-50%); }
+        .facts-numbers .black-layer .article-container .facts-container h3 {
+          color: #EEEEEE;
+          font-family: 'Fontawesome';
+          font-size: 20px;
+          overflow-y: hidden;
+           }
+        @media (max-width: 1120px) {
+          .facts-numbers .black-layer .article-container .facts-container h3 {
+            font-size: 16px; } }
+      .facts-numbers .black-layer .article-container .line {
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        bottom: -1%;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        width: 0%;
+        z-index: 111;
+        height: 1.5%;
+        background-color: #dc3545; }
+      .facts-numbers .black-layer .article-container:hover .line {
+        width: 100%;
+        left: 0%;
+        right: 0%; }
