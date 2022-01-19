@@ -1,96 +1,839 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>comming soon</title>
+   <meta charset="utf-8">
+   <meta name="description" content="Jucie WRLD fan page">
+   <meta name="keywords" content="HTML, CSS, JavaScript">
+   <meta name="author" content="Irakli Sajaia">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <script src="js/jquery.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" type="text/css" href="css/reset.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+   <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="   sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+   <title>Juice WRLD</title>
 </head>
 <body>
-	<style>
-		@import url(https://fonts.googleapis.com/css?family=Montserrat);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+         <div class="loader-wrapper"></div>
 
-*{
-	overflow-x: hidden;
-	overflow-y: hidden;
-}
-h1 {
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 4em;
-  color: #f8f9fa;
-  -webkit-text-shadow: 0 2px 1px rgba(0, 0, 0, 0.6), 0 0 2px rgba(0, 0, 0, 0.7);
-  -moz-text-shadow: 0 2px 1px rgba(0, 0, 0, 0.6), 0 0 2px rgba(0, 0, 0, 0.7);
-  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.6), 0 0 2px rgba(0, 0, 0, 0.7);
-  word-spacing: 16px;
-}
+    <header class="header">
+           
+          <div id="scroll-up"></div>
+          
+          <div class="f-div" style="cursor: default;" id="imgd">
+             <div class="alert alert-warning" role="alert" id="wlc">
+                     <h1>welcome</h1>
+         </div>
+             <img src="img/juice2.png" alt="juice wrld text" id="img">
+             
+          </div>
+     
+         <div class="shadow p-3 mb-5 bg-body rounded bg-light" id="nav">
+          <div class="header-flex"> 
+            
+          <div class="h-d">
+             <a href="#scroll-up" class="h-img" data-bs-toggle="tooltip" title="Home"><img src="img/999.png"></a>
+          </div>
+          <div class="nav-div">
+          <div class="topnav">
+               <a href="bio.html" class="raise">Biography</a>
+               <a href="tracks.html" class="raise">Tracks</a>
+               <a href="#albums" class="raise">Albums</a>
+               <a href="#footer" class="raise">Down</a>
+               
+         </div>
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" id="btn"><i class="bi bi-justify"></i></button>
 
-p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.4em;
-  font-weight: bold;
-  color: #222;
-  text-shadow: 0 0 40px #FFFFFF, 0 0 30px #FFFFFF, 0 0 20px #FFFFFF;
-}
-
-.container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  background: url("banner.jpg");
-  background-size: cover;
-  overflow-x: hidden;
-}
-
-.wrapper {
-  width: 100%;
-  min-height: 100%;
-  height: auto;
-  display: table;
-}
-
-.content {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.item {
-  width: auto;
-  height: auto;
-  margin: 0 auto;
-  text-align: center;
-  padding: 8px;
-}
-
-@media only screen and (min-width: 800px) {
-  h1 {
-    font-size: 6em;
-  }
-  p {
-    font-size: 1.6em;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  h1 {
-    font-size: 2em;
-  }
-  p {
-    font-size: 1.2em;
-  }
-}
-	</style>
-     <div class="container">
-  <div class="wrapper">
-    <div class="content">
-      <div class="item">
-        <!-- Place your content here to have it be centered vertically and horizontally  -->
-        <h1>COMING SOON</h1>
-        <p>This website is under construction.</p>
       </div>
+           </div>
+       <div class="offcanvas offcanvas-top bg-light" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header">
+              
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                 </div>
+                 <div class="offcanvas-body">
+                  <div class="mbnav"> 
+                    <a href="bio.html">Biography</a>
+                    <a href="tracks.html">Tracks</a>
+                    <a href="#albums">Albums</a>
+                    <a href="#">link</a>
+                 </div>
+               </div>
+
+    </header>              
+    <main>
+      <div id="sidenav" class="sidenav">
+          <li><a href="#scroll-up" data-bs-toggle="tooltip" data-bs-placement="right" title="Up"><i class="bi bi-arrow-up-circle-fill"></i></a></li>
+          <li><a href="bio.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Biography"><i class="bi bi-journal-text"></i></a></li>
+          <li><a href="tracks.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Tracks"><i class="bi bi-music-note-list"></i></a></li>
+          <li><a href="#albums" data-bs-toggle="tooltip" data-bs-placement="right" title="Albums"><i class="bi bi-journal-album"></i></a></li>
+          <li><a href="#footer" data-bs-toggle="tooltip" data-bs-placement="right" title="Down"><i class="bi bi-arrow-down-circle-fill"></i></a></li>
+      </div>
+
+      <div class="main-d1">
+        <hr class="progress">
+         <img src="img/banner.jpg" id="banner" alt="juice wrld banner">
+
+      </div>
+       <section class="section-0">
+       <div class="container" id="cont">
+   <div class="row">
+      <div class='col-md-offset-2 col-md-8 text-center'>
+       <div class="sectiondiv">
+                 <h1>Quotes from Juice WRLD</h1>
+                 <i class="bi bi-arrow-bar-down" style="color: black;"></i>
+                 </div>
+     </div>
+   </div>
+   <div class='row'>
+     <div class='col-md-offset-2 col-md-8'>
+       <div class="carousel slide " data-ride="carousel" id="quote-carousel" data-interval="false">
+        
+        
+              <div class="carousel-inner">
+                 <div class="item active">
+            <blockquote>
+              <div class="row">
+              <div class="q-t">
+                <div class="col-sm-9" id="col">
+                  <p>I’m an old soul</p>
+                  <small>Juice WRLD</small>
+                </div>
+            </div>
+              </div>
+            </blockquote>
+          </div>
+
+          <div class="item">
+            <blockquote>
+              <div class="row">
+            <div class="q-t">
+                <div class="col-sm-9" id="col">
+                  <p>I thought you were the one Listenin' to my heart instead of my head</p>
+                  <small>Juice WRLD</small>
+                </div>
+            </div>
+              </div>
+            </blockquote>
+          </div>
+         
+          <div class="item">
+            <blockquote>
+              <div class="row">
+              <div class="q-t">
+                <div class="col-sm-9" id="col">
+                  <p>Who knew evil girls had the prettiest face?</p>
+                  <small>Juice WRLD</small>
+                </div>
+            </div>
+              </div>
+            </blockquote>
+          </div>
+          
+          <div class="item">
+            <blockquote>
+              <div class="row">
+              <div class="q-t">
+                <div class="col-sm-9" id="col"> 
+                  <p>Money is gonna come regardless. If you doin’ this for money, people gonna be able to tell. For me [it’s more important that] Sting said my music is beautiful, the fact that he performed my version of the song</p>
+                  <small>Juice WRLD</small>
+                </div>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+              <div class="q-t">
+                <div class="col-sm-9" id="col">
+                  <p>The rap game now – I’m sorry to say it – but it’s so motherfucking soft. You can’t do anything without someone being offended nowadays. When did we become so soft?</p>
+                  <small>Juice WRLD</small>
+                </div>
+            </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+              <div class="q-t">
+                <div class="col-sm-9" id="col">
+                  <p>My goal is to get overly famous, shine for a couple years..then fake my death.</p>
+                  <small>Juice WRLD</small>
+                </div>
+            </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+              <div class="q-t">
+                <div class="col-sm-9" id="col">
+                  <p>It’s always good to put thought into shit, but something’s gonna come more from like, a feeling and heart and the soul, less like the mind</p>
+                  <small>Juice WRLD</small>
+                </div>
+            </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+              <div class="q-t">
+                <div class="col-sm-9" id="col">
+                  <p>Our heads is so imperfect, we drown ourselves in this imperfection. We don’t know what imperfection is. We only know how to spell it; we don’t know how it feels.</p>
+                  <small>Juice WRLD</small>
+                </div>
+            </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+              <div class="q-t">
+                <div class="col-sm-9" id="col">
+                  <p>Stuff does happen. People are sick in the head. But people take advantage of that, and then they mix that with destroying black careers and destroying black excellence</p>
+                  <small>Juice WRLD</small>
+                </div>
+            </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+              <div class="q-t">
+                <div class="col-sm-9" id="col">
+                  <p>Now I'm running from her love, I'm not fast. So I'm making it worse. Now I'm digging up a grave, from my past</p>
+                  <small>Juice WRLD</small>
+                </div>
+            </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+              <div class="q-t">
+                <div class="col-sm-9" id="col">
+                  <p>I don’t just [make emotional music] for myself. I do it to help other people through their situations. I guess I supposedly save lives. People tell me all the time that I save their lives. All the time, brother</p>
+                  <small>Juice WRLD</small>
+                </div>
+            </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+              <div class="q-t">
+                <div class="col-sm-9" id="col">
+                  <p>Everyone knows someone who does stuff that isn’t healthy for them. But imagine how much of a fuck you don’t give to do that, to drink that, to pop that</p>
+                  <small>Juice WRLD</small>
+                </div>
+            </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+              <div class="q-t">
+                <div class="col-sm-9" id="col">
+                  <p>Hey, these girls are insane<br>All girls are the same<br>They're rotting my brain, love</p>
+                  <small>Juice WRLD</small>
+                </div>
+            </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+              <div class="q-t">
+                <div class="col-sm-9" id="col">
+                  <p>I listen to all types of music, so my music is inspired by genres such as rock, too. I like to call myself an artist who can tap into a lot of different sounds. I can make a rap song, and then turn around and make music with a live band if I wanted to</p>
+                  <small>Juice WRLD</small>
+                </div>
+            </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+              <div class="q-t">
+                <div class="col-sm-9" id="col">
+                  <p>Everybody has their mistakes. A mistake is a mistake. Some are more severe than others, but we’re no one to judge the severity of someone’s mistake. As long as we doin’ wrong, as long as we sinnin’, you can’t judge nobody else’s mistakes</p>
+                  <small>Juice WRLD</small>
+                </div>
+            </div>
+              </div>
+            </blockquote>
+          </div>
+          
+          <div class="item">
+            <blockquote>
+              <div class="row">
+              <div class="q-t">
+                <div class="col-sm-9" id="col">
+                  <p>Tears on the Saint Laurent
+                 Feel like punchin' a wall but I don't wanna break the watch
+                 It was just a year ago, I was tellin' people, "Watch"
+                 Thanking God, uh, it was a part of the plot
+                 It feel like part of me alive and part of me not
+                 I'm tracing my steps, uh, tryna see where the insanity started
+                 I'm too high to talk right now, I'm sorry, beg my pardon
+                 This not a trend, this how I'ma deal with my demons regardless
+                 Oh yeah, Devil pullin' up a chair, he sittin' right over there
+                 Tellin' me I should be scared, God in my fuckin' ear
+                 Told me it's nothing to fear
+                 I forgot to mention that the Devil tryna be my friend
+                 Do you hear how confusing this is?
+                 I was at the lowest of points, feelin' like callin' it quits
+                 Ain't nobody understand, "You should be happy, nigga, you rich"
+                 That's what everybody says, anxiety is a ugly bitch
+                 Too ugly to comprehend, so I get high and fuck that bitch
+                 Prayin' for the upper hand, I hope that He hear my prayers
+                 Devil really want my soul, he gon' keep it in his lair
+                 Me, I'm just gon' keep a pole, paranoia in the air
+                 Everybody gettin' killed, I won't be a part of it</p>
+                  <small>Juice WRLD</small>
+                  <p>In <q>Rockstar in his prime</q></p>
+                </div>
+            </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+              <div class="q-t">
+                <div class="col-sm-9">
+                  <p>I wanna be more than just a millionaire. I wanna change the world</p>
+                  <small>Juice WRLD</small>
+                </div>
+            </div>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+        
+        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+      </div>                          
     </div>
   </div>
 </div>
+</section>
+      <section class="section-1">
+          <div class="g-div">
+              <h1>Gallery</h1>
+              <a href="#gallery"><i class="bi bi-arrow-bar-down"></i></a>
+          </div>
+                  <div id="gallery" class="galleryd">
+                        <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                   <img
+                    src="img/s12.jpg" id="d1"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="juicewrld photo"
+                  />
+
+                  <img
+                    src="img/g3.jpg" id="d1"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="juicewrld photo"
+                  />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                  <img
+                    src="img/g6.jpg"   id="d1"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="juicewrld photo"
+                  />
+
+                  <img
+                    src="img/slide4.jpg"   id="d1"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="juicewrld photo"
+                  />
+
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                  <img
+                    src="img/g2.jpg"  id="d1"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="juicewrld photo"
+                  />
+
+                  <img
+                    src="img/s3.jpg" id="d1"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="juicewrld photo"
+                  />
+                </div>
+              </div>
+                             <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                   <img
+                    src="img/g1.jpg"   id="d1"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="juicewrld photo"
+                  />
+                  
+                  <img
+                    src="img/s7.png"  id="d1"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="juicewrld photo"
+                  />
+                  <img
+                    src="img/s10.jpg" id="d2"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="juicewrld photo"
+                  />
+                  
+                      
+                </div>
+
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                     
+                  <img
+                    src="img/s8.jpg"   id="d1"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="juicewrld photo"
+                  />
+                  
+                  <img
+                    src="img/s11.jpg"  id="d1"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="juicewrld photo"
+                  />
+                  <img
+                    src="img/s9.jpg"  id="d1"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="juicewrld photo"
+                  />
+                  <img
+                    src="img/s16.jpg"  id="d3"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="juicewrld photo"
+                  />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                  <img
+                    src="img/s6.jpg"  id="d1"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="juicewrld photo"
+                  />
+
+                  <img
+                    src="img/g5.png"  id="d1"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="juicewrld photo"/>
+                  
+                   <img
+                    src="img/slide3.jpg"  id="d1"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="juicewrld photo"
+                  />
+                  <img
+                    src="img/s15.jpg"  id="d4"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="juicewrld photo"
+                  />
+                </div>
+              </div>
+          </div>
+      </section>
+             <section class="mbsection">
+             <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                
+                   <div class="carousel-inner" id="cin">
+                     <div class="item active">
+                        <img src="img/g1.jpg" alt="juicewrld photo" id="cin">
+                     </div>
+                     <div class="item" id="cin">
+                       <img src="img/g5.png" alt="juicewrld photo"  id="cin">
+                      </div>
+                    <div class="item" id="cin">
+                       <img src="img/g2.jpg" alt="juicewrld photo"  id="cin">
+                     </div>
+                     <div class="item" id="cin">
+                       <img src="img/g6.jpg" alt="juicewrld photo"  id="cin">
+                     </div>
+                     <div class="item" id="cin">
+                       <img src="img/s10.jpg" alt="juicewrld photo"  id="cin">
+                     </div>
+                     <div class="item" id="cin">
+                       <img src="img/s12.jpg" alt="juicewrld photo"  id="cin">
+                     </div>
+                     <div class="item" id="cin">
+                       <img src="img/s16.jpg" alt="juicewrld photo"  id="cin">
+                     </div>
+                     <div class="item" id="cin">
+                       <img src="img/s11.jpg" alt="juicewrld photo" id="cin">
+                     </div>
+                     <div class="item">
+                       <img src="img/slide4.jpg" alt="juicewrld photo" id="cin">
+                     </div>
+                     <div class="item">
+                       <img src="img/slide3.jpg" alt="juicewrld photo" id="cin">
+                     </div>
+                     <div class="item">
+                       <img src="img/slide2.jpg" alt="juicewrld photo"  id="cin">
+                     </div>
+                     <div class="item">
+                       <img src="img/g3.jpg" alt="juicewrld photo"  id="cin">
+                     </div>
+                     <div class="item">
+                       <img src="img/s3.jpg" alt="juicewrld photo"  id="cin">
+                     </div>
+                     <div class="item">
+                       <img src="img/s6.jpg" alt="juicewrld photo"  id="cin">
+                     </div>
+                     <div class="item">
+                       <img src="img/s7.png" alt="juicewrld photo"  id="cin">
+                     </div>
+                     <div class="item">
+                       <img src="img/s8.jpg" alt="juicewrld photo"  id="cin">
+                     </div>
+                     <div class="item">
+                       <img src="img/s9.jpg" alt="juicewrld photo"  id="cin">
+                     </div>
+                   </div>
+         <a class="left carousel-control" href="#myCarousel" data-slide="prev" id="np">
+           <span class="glyphicon glyphicon-chevron-left"></span>
+           <span class="sr-only">Previous</span>
+         </a>
+         <a class="right carousel-control" href="#myCarousel" data-slide="next" id="np">
+           <span class="glyphicon glyphicon-chevron-right"></span>
+           <span class="sr-only">Next</span>
+         </a>
+       </div>
+               </section>
+      <section class="section-2">
+       <div class="container" id="cont1">
+       <div> 
+         <h1>Juice WRLD's socials</h1>
+         <i class="bi bi-arrow-bar-down" style="color: black; font-size: 20px;"></i> 
+         </div>
+            <a class="social" href="https://www.youtube.com/channel/UC0BletW9phE4xHFM44q4qKA" target="_blank">
+                <i class="fab fa-youtube youtube"></i>
+            </a>  
+            <a class="social" href="https://www.facebook.com/juiceworldddd" target="_blank">
+                <i class="fab fa-facebook-f fb"></i>
+            </a>
+            <a class="social" href="https://www.instagram.com/juicewrld999/" target="_blank">
+                <i class="fab fa-instagram insta"></i>
+            </a>
+            <a class="social" href="https://twitter.com/juiceworlddd" target="_blank">
+                <i class="fab fa-twitter twitter"></i>
+            </a>
+            <a class="social" href="https://open.spotify.com/artist/4MCBfE4596Uoi2O4DtmEMz?si=4jIIjseJR06-V1-Q3aWy9w" target="_blank">
+                <i class="fab fa-spotify spotify"></i>
+            </a>
+            <a class="social" href="https://soundcloud.com/uiceheidd?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank">
+                <i class="fab fa-soundcloud soundcloud"></i>
+            </a>
+            
+        </div>
+        </section>
+          <section class="moviesection" style="background: url(img/bg.jpg); background-repeat: no-repeat;width: auto;"> 
+             <div class="vdiv">
+               <h1>Juice Wrld: Into the Abyss</h1>
+               <h5>Full documentary</h5>
+             </div>
+             <div class="viddiv">
+             <p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/j_wgdOeqGdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
+        </section>
+        <section class="section-4">
+              <div class="faqdiv">
+                  <h2>FAQ (Frequently asked questions)</h2>
+                  <p align="center"><i class="bi bi-arrow-bar-down"></i></p>
+              </div>
+              <p>
+               <p align="center"> 
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseExample" aria-expanded="false"
+                  aria-controls="collapseExample" id="faqbtn">
+                  How old is juice WRLD?
+                </button>
+              </p>
+              </p>
+             <p> 
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                  <p align="center">
+                  <strong>21 years old.</strong>
+                  Juice Wrld – would have turned 23 on December 2. The rapper was only 21 years old when he died, just six days after his birthday celebration.
+                  </p>
+                </div>
+              </div>
+              <p>
+               <p align="center"> 
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse" aria-expanded="false"
+                  aria-controls="collapseExample" id="faqbtn">
+                  Why does juice use 999?
+                </button>
+              </p>
+              </p>
+             <p> 
+              <div class="collapse" id="collapse">
+                <div class="card card-body">
+                  <p align="center">
+                  The rap star said the number was an inversion of 666, known as "the mark of the beast." He added: "999 represents taking whatever ill, whatever bad situation,<br> whatever struggle you're going through and turning it into something positive to push yourself forward."
+                  </p>
+                </div>
+              </div>
+              <p>
+               <p align="center"> 
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse1" aria-expanded="false"
+                  aria-controls="collapseExample" id="faqbtn">
+                  What is juice WRLD real name?
+                </button>
+              </p>
+              </p>
+             <p> 
+              <div class="collapse" id="collapse1">
+                <div class="card card-body">
+                  <p align="center">
+                  <strong>Jarad Anthony Higgins</strong>.
+                  </p>
+                </div>
+              </div>
+              <p>
+               <p align="center"> 
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse2" aria-expanded="false"
+                  aria-controls="collapseExample" id="faqbtn">
+                  Where is Juice WRLD from?
+                </button>
+              </p>
+              </p>
+             <p> 
+              <div class="collapse" id="collapse2">
+                <div class="card card-body">
+                  <p align="center">
+                   <strong> Chicago, Illinois, USA.</strong>
+                  </p>
+                </div>
+              </div>
+              <p>
+               <p align="center"> 
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse3" aria-expanded="false"
+                  aria-controls="collapseExample" id="faqbtn">
+                  What is juice Wrlds birthday?
+                </button>
+              </p>
+              </p>
+             <p> 
+              <div class="collapse" id="collapse3">
+                <div class="card card-body">
+                  <p align="center">
+                  <strong>December, 2nd.</strong>
+                  </p>
+                </div>
+              </div>
+                 <p align="center"> 
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse4" aria-expanded="false"
+                  aria-controls="collapseExample" id="faqbtn">
+                  When and where juice WRLD was born?
+                </button>
+              </p>
+              </p>
+             <p> 
+              <div class="collapse" id="collapse4">
+                <div class="card card-body">
+                  <p align="center">
+                  <strong>December 2nd, 1998, Chicago, Illinois, USA.</strong>
+                  </p>
+                </div>
+              </div>
+        </section>
+        <section class="section-5">
+           <div class="facts-numbers">
+            <div class="black-layer">
+                <h1>Facts & Numbers</h1>
+                <div class="article-container">
+                    <article class="facts-container">
+                        <h2>132</h2>
+                        <div class="break-line"></div>
+                        <h3>Official realesed songs (with collabs)</h3>
+                    </article>
+                    <article class="facts-container">
+                        <h2>188</h2>
+                        <div class="break-line"></div>
+                        <h3>Concerts</h3>
+                    </article>
+                    <article class="facts-container">
+                        <h2>Lucid dreams</h2>
+                        <div class="break-line"></div>
+                        <h3>Most popular song</h3>
+                     </article>
+                    <article class="facts-container">
+                        <h2>Legends Never Die</h2>
+                        <div class="break-line"></div>
+                        <h3>Most popular album</h3>
+                    </article> 
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+        </section>
+         <section class="alb-section" id="albums">
+              <div class="ah">
+                 <h1>Studio Albums</h1>
+              </div>
+              <hr style="height:2px;border-width:0;color:gray;background-color:gray;width: 40%;">
+             <div class="row">
+              <div class="col-md-4">
+              <div class="thumbnail shadow p-3">
+                  <a href="tracks.html">
+                  <img src="img/fg2.jpg" alt="fighting demons album cover" style="width:70%" class="rounded">
+                <div class="caption">
+                 <p><strong>Fighting Demons-</strong> is the fourth studio album by American recording artist Juice Wrld. It was posthumously released through Grade A Productions and Interscope Records on December 10, 2021. The album contains guest appearances from Justin Bieber, Polo G, Trippie Redd and Suga of BTS. It serves as a tie-in for an HBO-produced documentary titled Juice Wrld: Into the Abyss, released on December 16, 2021.<br><small>To listen-<strong>click</strong></small></p>
+              </div>
+                 </a>
+              </div>
+             </div>
+      <div class="col-md-4">
+       <div class="thumbnail shadow p-3">
+        <a href="tracks.html">
+          <img src="img/lnd2.png" alt="legends never die album cover" style="width:70%" class="rounded">
+          <div class="caption">
+          <p><strong>Legends never die-</strong> is the third studio album by American rapper Juice Wrld by Grade A Productions and Interscope Records. It was posthumously released on July 10, 2020, following his death from a drug-related seizure on December 8, 2019. The album features guest appearances from the Weeknd, Trippie Redd, Marshmello, Polo G, the Kid Laroi, and Halsey.<br><small>To listen-<strong>click</strong></small></p>
+              </div>
+             </a>
+           </div>
+          </div>
+         <div class="col-md-4">
+           <div class="thumbnail shadow p-3">
+             <a href="tracks.html">
+               <img src="img/drl2.png" alt="death race for love album cover" style="width:70%" class="rounded">
+               <div class="caption">
+                 <p><strong>Death Race-</strong> for Love is the second studio album by American rapper Juice Wrld and the last to be released during his lifetime. It was released on March 8, 2019, by Grade A Productions and Interscope Records. It follows his debut studio album, Goodbye & Good Riddance (2018), and his collaborative mixtape with Future, Wrld on Drugs (2018).<br><small>To listen-<strong>click</strong></small></p>
+               </div>
+             </a>
+           </div>
+         </div>
+       </div>
+       <div class="row">
+              <div class="col-md-4">
+              <div class="thumbnail shadow p-3">
+                  <a href="tracks.html">
+                  <img src="img/ts.jpg" alt="to soon album cover" style="width:70%" class="rounded">
+                <div class="caption">
+                 <p><strong>Too soon-</strong> is album by American rapper Juice Wrld released in June 22,2018.The album is an homage to deceased rappers Lil Peep and XXXTentacion, the latter being a friend of Juice Wrld's.<br><small>To listen-<strong>click</strong></small></p>
+              </div>
+                 </a>
+              </div>
+             </div>
+      <div class="col-md-4">
+       <div class="thumbnail">
+        <a href="tracks.html">
+          <img src="img/ggr2.jpg" alt="goodbye & good riddance album cover" style="width:70%" class="rounded">
+          <div class="caption">
+          <p><strong>Goodbye & good riddance-</strong> is the debut studio album by American rapper Juice Wrld. It was released on May 23, 2018, by Grade A Productions and Interscope Records.<br><small>To listen-<strong>click</strong></small></p>
+              </div>
+             </a>
+           </div>
+          </div>
+         <div class="col-md-4">
+           <div class="thumbnail">
+             <a href="tracks.html">
+               <img src="img/jw92.jpg" alt="jw999 album cover" style="width:70%" class="rounded">
+               <div class="caption">
+                 <p><strong>Juice WRLD 9 9 9-</strong> is the album by American rapper juice wrld. It was released on June 15, 2017.<br><small>To listen-<strong>click</strong></small></p>
+               </div>
+             </a>
+           </div>
+         </div>
+       </div>
+
+         </section>
+          <section class="section-6">
+            <img src="img/banner3.jpg">
+            <div class="s6div">
+            <div class="s-d">
+               <h2>pages</h2>
+               <p align="center"><i class="bi bi-arrow-bar-down"></i></p>
+            </div>
+              <div class="s-d2">
+                  <ul>
+                     <li><a href="bio.html">Biography</a></li>
+                     <li><a href="tracks.html">Tracks</a></li>
+                  </ul>
+              </div>
+              </div>
+
+          </section>
+    </main>
+    <footer id="footer">
+        <section class="footer-section">
+            <div class="fd-1">
+                 <img src="img/jw.png">
+             </div>   
+          <div class="fd">
+             <div class="fd-2">
+                 <h2>Your comment here</h2>
+                 <i class="bi bi-arrow-bar-down"></i>
+             </div>
+             <div class="fd-3">
+                  <h2>Official juice WRLD website here</h2>
+                  <i class="bi bi-arrow-bar-down"></i>
+             </div>
+             <div class="fd-4">
+                  <h2>Contact me</h2>
+                  <i class="bi bi-arrow-bar-down"></i>
+             </div>
+           </div>
+           <div class="div2">
+             <div class="fd2div">
+                  <input type="text" name="review" class="inp" placeholder="Type..." id="inp">
+                  <button class="inp-btn"><i class="bi bi-cursor-fill"></i></button>
+                </div>
+              <div class="wbd">
+                 <h3><a href="https://999club.com/" target="_blank">999club.com<i class="bi bi-arrow-up-right"></i></a></h3>
+              </div>
+              <div class="contactdiv">
+                 <h3><a href="https://github.com/ika17s" target="_blank"><i class="bi bi-github"></i></a></h3>
+                 <h3><a href="#footer" onclick="alert('contact mail: sajaia.irakli17@gmail.com')"><i class="bi bi-envelope-fill"></i></a></h3>
+                 <h3><a href="https://www.linkedin.com/in/ika-4552b6225/" target="_blank"><i class="bi bi-linkedin"></i></a></h3>
+              </div>
+            </div>
+            <div class="cp">
+               <h5>@copyright 2022</h5>
+            </div>    
+        </section>
+    </footer>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
