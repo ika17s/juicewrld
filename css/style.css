@@ -1493,3 +1493,27 @@ input[type=text]:focus {
     background-color: #343a40;
 
 }
+.smd-mb{
+    display: none;
+}
+@media(max-width: 500px){
+     .b-img img{
+        width: 55%;
+        height: 140px;
+     }
+     .vl{
+        display: none;
+     }
+     .smd{
+        display: none;
+     }.smd2{
+        display: none;
+     }
+    .smd-mb{
+        display: block;
+        margin-left: 0.5%;
+    } 
+}
+.bs-2{
+    font-family: 'Roboto', sans-serif;
+}
