@@ -1193,7 +1193,17 @@ input[type=text]:focus {
   padding: 0px 10px;
   background-color: #f9f8fa;
 }
-
+@media(max-width: 500px){
+    .sidebar{
+        width: 30px;
+    }.sidebar a{
+        font-size: 20px;
+        padding-left: 4px;
+    }
+    .trmain{
+      margin-left:30px;
+}  
+}
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
@@ -1335,7 +1345,7 @@ input[type=text]:focus {
     margin-bottom: 40px;
 }
 .trfooter{
-    padding-left: 60px;
+    margin-left: 60px;
 }
 .ba{
     background-color: #212121;
@@ -1355,6 +1365,8 @@ input[type=text]:focus {
 }
 .trdiv{
     padding-bottom: 150px;
+    border-top: 50px solid #343a40;
+    border-radius: 3px;
 }
 #dp{
     opacity: 0;
@@ -1364,6 +1376,11 @@ input[type=text]:focus {
         display: none;
     }
 
+}
+@media(max-width: 500px){
+    .trfooter{
+     margin-left: 30px;
+}
 }
 .trnav-mb{
     display: none;
@@ -1401,7 +1418,7 @@ input[type=text]:focus {
     }
 }
 .bnav{
-    background-color: #bdbcbb;
+    background-color: #212121;
     width: 100%;
     text-align: center;
     height: 30px;
@@ -1413,10 +1430,10 @@ input[type=text]:focus {
     margin-right: 10px;
     font-size: 20px;
 }.bnav a{
-    color: #343a40;
+    color: #f9f8fa;
     text-decoration: none;
 }.bnav a:hover{
-    color: #212121;
+    color: #bdbcbb;
 }
 .b-main{
     padding-top: 20px;
@@ -1513,7 +1530,48 @@ input[type=text]:focus {
         display: block;
         margin-left: 0.5%;
     } 
+    .th2 h2{
+        font-size: 25px;
+    }
 }
 .bs-2{
     font-family: 'Roboto', sans-serif;
+}
+.un-div{
+    background-color: black;
+}
+.und h2{
+    font-family: "Bebas Neue", cursive;
+    overflow-y: hidden;
+}.und{
+    text-align: center;
+}
+.f-und{
+    margin-left: 2.8%;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    text-align: center;
+}.f-und a{
+    color: #343a40;
+    font-size: 25px;
+    font-family: 'Sedgwick Ave', cursive;
+}.f-und a:hover,
+.f-und a:focus{
+    text-decoration: none;
+    color: #f9f8fa;
+    font-size: 27px;
+    border: 5px solid #212121;
+    padding: 5px;
+    border-radius: 2px;
+    transition: 0.1s;
+    font-family: "Bebas Neue", cursive;
+    background-color: #212121;
+}
+@media(max-width: 500px){
+    .f-und a{
+        font-size: 20px;
+    }.f-und a:hover,
+      .f-und a:focus{
+        font-size: 22px;
+      }
 }
