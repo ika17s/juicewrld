@@ -52,3 +52,7 @@ window.onload = function(){
 
 
 //-----------------
+function userinp(){
+    var name = window.prompt("Enter your message: ");
+    console.log(name);
+}

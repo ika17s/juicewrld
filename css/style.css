@@ -181,7 +181,7 @@ hr {
   margin-top: 12px;
   text-decoration: none;
   font-size: 18px;
-  transition: 0.2;
+  transition: 0.2 ease-in-out;
   font-family: 'Bebas Neue', cursive;
 }
 
@@ -901,6 +901,7 @@ hr {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     overflow-y: hidden;
+    transition: all 0.5s;
 }
 .s-d2 > ul{
      overflow-y: hidden;
@@ -913,6 +914,7 @@ hr {
 .s-d2 > ul > li > a{
     color: #f8f9fa;
     text-decoration: none;
+    transition: all 0.5s;
 }
 .s-d2{
     margin-top: 400px;
@@ -923,7 +925,8 @@ hr {
 .s-d2 > ul > li :hover{
      color:#ffc107;
      font-size: 27px;
-     transition: 0.3s;
+     transition: 0.3s ease-in-out;
+     transition: all 0.5s;
 }
 @media(max-width: 500px){
     .s-d h2{
@@ -1001,32 +1004,23 @@ hr {
     overflow-y: hidden;
     color: #f8f9fa;
 }
-.inp{
-    border: none;
-    border-bottom: 2px solid #999999;
-    right: 0;
-    height: 28px;
-    width: 120px;
-    margin-top: 50px;
-    background-color: #212121;
-    color: #f8f9fa;
-}
-.inp-btn{
-    background-color:#212121;
-    border: none;
-    height: 28px;
-    color: #f8f9fa;
-    border-bottom: 2px solid #999999;
-}
-input[type=text]:focus {
-  width: 350px;
-  transition: 0.3s;
-  margin-left: 1px;
-  outline: none;
-}
+
 .fd2div{
     padding-left: 30px;
     padding-bottom: 2px;
+}.fd2div button{
+    margin-top: 50px;
+    width: 160px;
+    border: none;
+    background: #f9f8fa;
+    color: #212121;
+    font-family: 'Raleway', sans-serif;
+    transition: all 0.5s; 
+}.fd2div button:hover{
+    background-color: #343a40;
+    color: #f9f8fa;
+    width: 200px;
+    transition: all ease-in-out 0.5s;
 }
 .div2{
     display: flex;
@@ -1241,6 +1235,7 @@ input[type=text]:focus {
 .trnav li a{
     text-decoration: none;
     color: #f8f9fa;
+    transition: all 0.5s;
 }
 .trnav{
     background-color: #343a40;
@@ -1280,8 +1275,12 @@ input[type=text]:focus {
     margin-top: 40px;
     text-align: center;
 }
+.id a{
+    transition: all 0.5s;
+}
 .id a:hover{
-   filter: grayscale(100%);
+   filter: opacity(80%);
+   transition: 0.5s;
 }
 .fg-d h2{
    font-family: 'Bebas Neue';
@@ -1466,14 +1465,7 @@ input[type=text]:focus {
 .mbd{
     width: 81%;
 }
-.vl {
-  border-left: 3px solid gray;
-  height: 155px;
-  position: absolute;
-  left: 53%;
-  margin-left: -3px;
-  transform: translateY(171%);
-}
+
 .smd{
    display: flex;
 }.smd2{
@@ -1555,6 +1547,7 @@ input[type=text]:focus {
     color: #343a40;
     font-size: 25px;
     font-family: 'Sedgwick Ave', cursive;
+    transition: all 0.3s;
 }.f-und a:hover,
 .f-und a:focus{
     text-decoration: none;
@@ -1563,7 +1556,7 @@ input[type=text]:focus {
     border: 5px solid #212121;
     padding: 5px;
     border-radius: 2px;
-    transition: 0.1s;
+    transition: 0.3s;
     font-family: "Bebas Neue", cursive;
     background-color: #212121;
 }
