@@ -53,6 +53,6 @@ window.onload = function(){
 
 //-----------------
 function userinp(){
-    var name = window.prompt("Enter your message: ");
-    console.log(name);
+    var userinp = window.prompt("Enter your message: ");
+    var message = localStorage.setItem("User message", userinp);
 }

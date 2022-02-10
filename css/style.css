@@ -1022,6 +1022,15 @@ hr {
     width: 200px;
     transition: all ease-in-out 0.5s;
 }
+@media(max-width: 500px){
+    .fd2div button{
+    margin-top: 50px;
+    width: 80px;
+    
+}.fd2div button:hover{
+      width: 80px;
+}
+}
 .div2{
     display: flex;
     justify-content: space-between;
