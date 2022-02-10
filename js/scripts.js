@@ -52,8 +52,3 @@ window.onload = function(){
 
 
 //-----------------
-var us = document.getElementById("userinp")
-us.addEventListener("click", function(){
-    var message = window.prompt("Enter your message:");
-    console.log(message);
-});

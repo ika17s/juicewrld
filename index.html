@@ -27,6 +27,9 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
    <title>Juice WRLD</title>
 </head>
 <body>
@@ -55,7 +58,7 @@
                <a href="bio.html" class="raise">Biography</a>
                <a href="tracks.html" class="raise">Tracks</a>
                <a href="#albums" class="raise">Albums</a>
-               <a href="#footer" class="raise">Down</a>
+               <a href="#comments" class="raise">Comments</a>
                
          </div>
         <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" id="btn"><i class="bi bi-justify"></i></button>
@@ -72,7 +75,7 @@
                     <a href="bio.html">Biography</a>
                     <a href="tracks.html">Tracks</a>
                     <a href="#albums">Albums</a>
-                    <a href="#footer">down</a>
+                    <a href="#comments">Comments</a>
                  </div>
                </div>
 
@@ -778,7 +781,6 @@
            </div>
          </div>
        </div>
-
          </section>
           <section class="section-6">
             <img src="img/banner3.jpg">
@@ -796,44 +798,73 @@
               </div>
 
           </section>
+       <section class="comment-section" id="comments">   
+        <h6>Comment as guest</h6>
+          <div id="graphcomment"></div>
+          <script type="text/javascript">
+          var __semio__params = {
+          graphcommentId: "juice-wrld-fan-website",
+         behaviour: {
+    },
+  }
+  function __semio__onload() {
+    __semio__gc_graphlogin(__semio__params)
+  }
+  (function() {
+    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+  })();
+</script>
+</section>
     </main>
     <footer id="footer">
         <section class="footer-section">
             <div class="fd-1">
                  <img src="img/jw.png">
              </div>   
-          <div class="fd">
-             <div class="fd-2">
-                 <h2>Your message here</h2>
-                 <i class="bi bi-arrow-bar-down"></i>
-             </div>
-             <div class="fd-3">
-                  <h2>Official juice WRLD website here</h2>
-                  <i class="bi bi-arrow-bar-down"></i>
-             </div>
-             <div class="fd-4">
-                  <h2>Contact me</h2>
-                  <i class="bi bi-arrow-bar-down"></i>
-             </div>
-           </div>
-           <div class="div2">
-             <div class="fd2div">
-                  <button id="userinp">CLICK</button>
+             <div class="fd">
+                <div class="fd-2">
+                    <h3>Official Juice Wrld website<br><i class="bi bi-arrow-bar-down"></i></h3>
+                    <a href="https://999club.com/" target="_blank">999club.com</a>
                 </div>
-              <div class="wbd">
-                 <h3><a href="https://999club.com/" target="_blank">999club.com<i class="bi bi-arrow-up-right"></i></a></h3>
+                <div class="contactdiv">
+                  <h3>Contact me<br><i class="bi bi-arrow-bar-down"></i></h3>
+                 <h4><a href="https://github.com/ika17s" target="_blank"><i class="bi bi-github"></i></a></h4>
+                 <h4><a href="#footer" onclick="alert('contact mail: sajaia.irakli17@gmail.com')"><i class="bi bi-envelope-fill"></i></a></h4>
+                 <h4><a href="https://www.linkedin.com/in/ika-4552b6225/" target="_blank"><i class="bi bi-linkedin"></i></a></h4>
               </div>
-              <div class="contactdiv">
-                 <h3><a href="https://github.com/ika17s" target="_blank"><i class="bi bi-github"></i></a></h3>
-                 <h3><a href="#footer" onclick="alert('contact mail: sajaia.irakli17@gmail.com')"><i class="bi bi-envelope-fill"></i></a></h3>
-                 <h3><a href="https://www.linkedin.com/in/ika-4552b6225/" target="_blank"><i class="bi bi-linkedin"></i></a></h3>
-              </div>
-            </div>
-            <div class="cp">
+             </div>
+             <div class="cp">
                <h5>@copyright 2022</h5>
-            </div>    
+            </div>
         </section>
     </footer>
     <script src="js/scripts.js"></script>
+    <script type="text/javascript">(function(d, t, e, m){
+    
+    // Async Rating-Widget initialization.
+    window.RW_Async_Init = function(){
+                
+        RW.init({
+            huid: "482059",
+            uid: "e9de38b878760920e05e6c090dc9cbfb",
+            options: { "style": "oxygen" } 
+        });
+        RW.render();
+    };
+        // Append Rating-Widget JavaScript library.
+    var rw, s = d.getElementsByTagName(e)[0], id = "rw-js",
+        l = d.location, ck = "Y" + t.getFullYear() + 
+        "M" + t.getMonth() + "D" + t.getDate(), p = l.protocol,
+        f = ((l.search.indexOf("DBG=") > -1) ? "" : ".min"),
+        a = ("https:" == p ? "secure." + m + "js/" : "js." + m);
+    if (d.getElementById(id)) return;              
+    rw = d.createElement(e);
+    rw.id = id; rw.async = true; rw.type = "text/javascript";
+    rw.src = p + "//" + a + "external" + f + ".js?ck=" + ck;
+    s.parentNode.insertBefore(rw, s);
+    }(document, new Date(), "script", "rating-widget.com/"));</script>
+
 </body>
 </html>
