@@ -52,7 +52,8 @@ window.onload = function(){
 
 
 //-----------------
-function userinp(){
-    var userinp = window.prompt("Enter your message: ");
-    var message = localStorage.setItem("User message", userinp);
-}
+var us = document.getElementById("userinp")
+us.addEventListener("click", function(){
+    var message = window.prompt("Enter your message:");
+    console.log(message);
+});
