@@ -33,13 +33,17 @@ img{
 .f-div{
   /*padding-left: 2%;*/
   text-align: center;
-  background: rgb(226,226,226);
-  background: linear-gradient(0deg, rgba(226,226,226,1) 0%, rgba(248,249,250,1) 7%, rgba(200,42,42,1) 42%, rgba(88,0,14,1) 86%);
+  /*background: rgb(226,226,226);
+  background: linear-gradient(0deg, rgba(226,226,226,1) 0%, rgba(248,249,250,1) 7%, rgba(200,42,42,1) 42%, rgba(88,0,14,1) 86%);*/
+  background: rgb(255,249,0);
+background: linear-gradient(180deg, rgba(255,249,0,1) 0%, rgba(255,255,255,1) 62%);
 }.f-div img{
   width: 160px;
   opacity: 0;
   filter: drop-shadow(0 0 0.75rem black);
   transition: 0.2s;
+}.f-div h1{
+    font-family: "Bebas Neue", cursive;
 }
 @media(max-width: 500px){
    .f-div img{
