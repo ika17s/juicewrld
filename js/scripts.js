@@ -22,14 +22,10 @@ var x = document.getElementById("wlc")
     //------------//
      
  
-//load script
 $(window).on("load",function(){
      $(".loader-wrapper").fadeOut("slow");
 });
 
-
-
-//scroll script
 window.onscroll = function() {scrollFunctionside()};
 
 function scrollFunctionside() {
