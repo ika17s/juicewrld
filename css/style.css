@@ -31,12 +31,11 @@ img{
   background: #555;
 }
 .f-div{
-  /*padding-left: 2%;*/
+  padding-left: 2%;
   text-align: center;
-  /*background: rgb(226,226,226);
-  background: linear-gradient(0deg, rgba(226,226,226,1) 0%, rgba(248,249,250,1) 7%, rgba(200,42,42,1) 42%, rgba(88,0,14,1) 86%);*/
-  background: rgb(0,0,255);
-background: linear-gradient(180deg, rgba(0,0,255,1) 45%, rgba(255,255,0,1) 50%, rgba(249,248,250,1) 80%);
+  background: rgb(226,226,226);
+  background: linear-gradient(0deg, rgba(226,226,226,1) 0%, rgba(248,249,250,1) 7%, rgba(200,42,42,1) 42%, rgba(88,0,14,1) 86%);
+  
 padding-bottom: 50px;
 }.f-div img{
   width: 160px;
